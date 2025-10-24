@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outubro Rosa</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos do body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fdf2f8;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        /* Container principal */
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Header */
+        .header h1 {
+            font-size: 2.5rem;
+            color: #ec4899;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: #6b7280;
+            margin-bottom: 2rem;
+        }
+
+        /* Seção sobre a campanha */
+        .about {
+            background-color: #fdf2f8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .about p {
+            color: #374151;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Link */
+        .link {
+            display: block;
+            background-color: #fce7f3;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #ec4899;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #fbb6ce;
+            transform: translateY(-2px);
+        }
+
+        .link h3 {
+            color: #be185d;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .link p {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .link span {
+            color: #ec4899;
+            font-size: 0.8rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎀 Outubro Rosa</h1>
+            <p>Mês de conscientização sobre o câncer de mama</p>
+        </div>
+
+        <!-- Sobre -->
+        <div class="about">
+            <p>
+                O Outubro Rosa é uma campanha mundial de conscientização sobre o câncer de mama. 
+                A prevenção e o diagnóstico precoce são fundamentais. A prevenção é o melhor caminho para a saúde!
+            </p>
+        </div>
+
+        <!-- Link -->
+        <a href="https://www.paranarosa.pr.gov.br/" target="_blank" rel="noopener noreferrer" class="link">
+            <h3>Paraná Rosa</h3>
+            <p>Projeto do Governo do Paraná que promove conscientização sobre o câncer de mama</p>
+            <span>🔗 paranarosa.pr.gov.br</span>
+        </a>
+    </div>
+</body>
+</html>
